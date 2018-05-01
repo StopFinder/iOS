@@ -24,9 +24,13 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app will find your nearest stops according to where you are.</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>location-services</string>
+		<string>gps</string>
 	</array>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
